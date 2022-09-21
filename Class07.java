@@ -6,14 +6,15 @@ class ANS{
         ans2=n;
     }
     void ans(){
-        System.out.println(Math.pow(ans1, ans2));
+        System.out.println(ans1);
+        System.out.println(ans2);
     }
-    
 }
 public class Class07{
     public static void main(String[] args) {
         ANS aa=new ANS();
-        aa.power((int)Math.pow(2, 5), (int)Math.pow(3, 2));
+        aa.ans1=(int)Math.pow(2,5);
+        aa.ans2=(int)Math.pow(3,2);
         aa.ans();
     }
 }
